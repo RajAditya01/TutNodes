@@ -72,4 +72,24 @@ let name = 'Aditya';
 
 //new line-->
 let message = `my name is \n aditya`;
-console.log(message);
+// console.log(message);
+
+
+//Excersise-->
+let Person={
+    name: 'Aditya',
+    age: 40,
+    isMarried: true,
+
+    homeAddress :{
+        longitude : 44.55,
+        lat: 33.44,
+        },
+        friend :['Aditya', 'jack','Raju'],
+
+    };
+
+    console.log(Person);
+    console.log(Person.name);
+    console.log(Person.homeAddress.longitude);
+    console.log(Person.friend[1]);
