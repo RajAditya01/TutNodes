@@ -74,7 +74,6 @@ let name = 'Aditya';
 let message = `my name is \n aditya`;
 // console.log(message);
 
-
 //Excersise-->
 let Person={
     name: 'Aditya',
