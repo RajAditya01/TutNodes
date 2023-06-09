@@ -46,10 +46,20 @@
 
 //Equality Operators
 
-let price=500;
-//it cheack datatype also
-console.log(price === '500');
-console.log(price !== 600);
+// let price=500;
+// //it cheack datatype also
+// console.log(price === '500');
+// console.log(price !== 600);
 
-console.log(price == '500');
-console.log(price != 500);
+// console.log(price == '500');
+// console.log(price != 500);
+
+//Swapping
+
+let apple=10;
+let orange =20;
+
+let temp = apple;
+apple=orange;
+orange =temp;
+console.log(apple, orange);
