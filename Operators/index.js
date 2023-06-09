@@ -38,8 +38,18 @@
 //logical Operators
 //and (&&), or(||), not(!)
 
+// let price=500;
+// console.log(price > 300 && price <15);
+// //true && true
+// console.log(price > 300 || price <15);
+// console.log(!(price > 300))
+
+//Equality Operators
+
 let price=500;
-console.log(price > 300 && price <15);
-//true && true
-console.log(price > 300 || price <15);
-console.log(!(price > 300))
+//it cheack datatype also
+console.log(price === '500');
+console.log(price !== 600);
+
+console.log(price == '500');
+console.log(price != 500);
