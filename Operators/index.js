@@ -26,10 +26,20 @@
 //comparision operators
 // > < >= <= === !==
 
+// let price=500;
+// console.log(price > 300);
+// console.log(price >=500);
+// console.log(price < 300);
+// console.log(price <=500);
+// console.log(price === 300);
+// console.log(price !==500);
+
+
+//logical Operators
+//and (&&), or(||), not(!)
+
 let price=500;
-console.log(price > 300);
-console.log(price >=500);
-console.log(price < 300);
-console.log(price <=500);
-console.log(price === 300);
-console.log(price !==500);
+console.log(price > 300 && price <15);
+//true && true
+console.log(price > 300 || price <15);
+console.log(!(price > 300))
