@@ -65,12 +65,31 @@
 
 
 //using Ternary operators
-let num=30;
-console.log(num %3===0 && num %5===0 
-    ? 'Fizzbuzz'
-    :num %3===0 
-    ? 'Fizz'
-    :num %5===0
-    ? 'Buzz'
-    : 'Notting'
-    );
+// let num=30;
+// console.log(num %3===0 && num %5===0 
+//     ? 'Fizzbuzz'
+//     :num %3===0 
+//     ? 'Fizz'
+//     :num %5===0
+//     ? 'Buzz'
+//     : 'Notting'
+//     );
+
+//Grading System
+
+let num =55;
+if(num>=80 && num <=100){
+    console.log('A+')
+}else if(num>=70 && num <=79){
+    console.log('A')
+}else if(num>=60 && num <=69){
+    console.log('B')
+}else if(num>=50 && num <=59){
+    console.log('C')
+}else if(num>=40 && num <=49){
+    console.log('D')
+}else if(num>=33&& num <=39){
+    console.log('F')
+}else{
+    console.log('Invalid Mark')
+}
