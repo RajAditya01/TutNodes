@@ -45,13 +45,30 @@
 
 //For .. of loop
 
-let numbers=[1,2,3,4,5];
-console.log(numbers);
+// let numbers=[1,2,3,4,5];
+// console.log(numbers);
 
-for(let index in numbers){
-    console.log(index);
+// for(let index in numbers){
+//     console.log(index);
+// }
+
+// for(let num of numbers){
+//     console.log(num);
+// }
+
+
+//Break and continue
+
+for(let i=0; i<20 ; i++){
+    if(i===10){
+        continue;
+    }
+    console.log(i);
 }
 
-for(let num of numbers){
-    console.log(num);
+for(let i=0; i<20 ; i++){
+    console.log(i);
+    if(i===10){
+        break;
+    }
 }
