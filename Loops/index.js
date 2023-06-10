@@ -26,18 +26,32 @@
 
 //for in loop
 
-const objs={
-    name : 'Aditya',
-    age : 18,
+// const objs={
+//     name : 'Aditya',
+//     age : 18,
+// }
+
+// for (let key in objs){
+//     console.log(key, objs[key]);
+// }
+
+// let nums=[1.2,3,4,5];
+// console.log(nums);
+
+// for (let index in numbers){
+//     console.log(index,numbers[index]);
+// }
+
+
+//For .. of loop
+
+let numbers=[1,2,3,4,5];
+console.log(numbers);
+
+for(let index in numbers){
+    console.log(index);
 }
 
-for (let key in objs){
-    console.log(key, objs[key]);
-}
-
-let nums=[1.2,3,4,5];
-console.log(nums);
-
-for (let index in numbers){
-    console.log(index,numbers[index]);
+for(let num of numbers){
+    console.log(num);
 }
