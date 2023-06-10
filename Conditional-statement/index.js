@@ -47,3 +47,20 @@
 // let max=num1>num2 ? num1 : num2;
 
 
+//Questions--> fizzbuzz
+
+let num=30;
+
+if(num %3===0 && num %5===0){
+    console.log('Fizzbuzz');
+}
+else if(num % 3===0){
+    console.log('fizz');
+}
+else if(num % 5===0){
+    console.log('Buzz');
+}else{
+    console.log('Nothing');
+}
+
+
