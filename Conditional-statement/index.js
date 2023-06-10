@@ -49,18 +49,28 @@
 
 //Questions--> fizzbuzz
 
+// let num=30;
+
+// if(num %3===0 && num %5===0){
+//     console.log('Fizzbuzz');
+// }
+// else if(num % 3===0){
+//     console.log('fizz');
+// }
+// else if(num % 5===0){
+//     console.log('Buzz');
+// }else{
+//     console.log('Nothing');
+// }
+
+
+//using Ternary operators
 let num=30;
-
-if(num %3===0 && num %5===0){
-    console.log('Fizzbuzz');
-}
-else if(num % 3===0){
-    console.log('fizz');
-}
-else if(num % 5===0){
-    console.log('Buzz');
-}else{
-    console.log('Nothing');
-}
-
-
+console.log(num %3===0 && num %5===0 
+    ? 'Fizzbuzz'
+    :num %3===0 
+    ? 'Fizz'
+    :num %5===0
+    ? 'Buzz'
+    : 'Notting'
+    );
