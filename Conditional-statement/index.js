@@ -20,24 +20,30 @@
 // }
 
 //Switch case
-let col = 'white';
+// let col = 'white';
 
-switch (col) {
-  case 'black':
-    console.log('This is black');
-    break;
+// switch (col) {
+//   case 'black':
+//     console.log('This is black');
+//     break;
 
-  case 'white':
-    console.log('This is white');
-    break;
+//   case 'white':
+//     console.log('This is white');
+//     break;
 
-  case 'red':
-    console.log('This is red');
-    break;
+//   case 'red':
+//     console.log('This is red');
+//     break;
 
-  default:
-    console.log('Color not recognized');
-    break;
-}
+//   default:
+//     console.log('Color not recognized');
+//     break;
+// }
+
+//Ternary Operators
+// let num1=10;
+// let num2=2;
+
+// let max=num1>num2 ? num1 : num2;
 
 
