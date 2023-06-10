@@ -19,21 +19,25 @@
 //     console.log("this is 0");
 // }
 
+//Switch case
+let col = 'white';
 
-//switch case
-let col='white';
-
-switch(color){
-    case 'black;
-    console.log('this is black');
+switch (col) {
+  case 'black':
+    console.log('This is black');
     break;
 
-    case 'white';
-    console.log('this is white');
+  case 'white':
+    console.log('This is white');
     break;
 
-    case 'red';
-    console.log('this is red');
+  case 'red':
+    console.log('This is red');
     break;
 
+  default:
+    console.log('Color not recognized');
+    break;
 }
+
+
