@@ -59,16 +59,24 @@
 
 //Break and continue
 
-for(let i=0; i<20 ; i++){
-    if(i===10){
-        continue;
-    }
-    console.log(i);
-}
+// for(let i=0; i<20 ; i++){
+//     if(i===10){
+//         continue;
+//     }
+//     console.log(i);
+// }
 
-for(let i=0; i<20 ; i++){
-    console.log(i);
-    if(i===10){
-        break;
+// for(let i=0; i<20 ; i++){
+//     console.log(i);
+//     if(i===10){
+//         break;
+//     }
+// }
+
+
+//Nested loop
+for(let aditya=1; aditya<=3; aditya++){
+    for(let raj=1; raj<=3; raj++){
+        console.log(aditya,raj);
     }
 }
