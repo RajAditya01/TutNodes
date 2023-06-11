@@ -17,3 +17,14 @@ let msge="hii my name is aditya";
 let tem= 123;
 console.log(tem.toString());
 console.log(typeof tem.toString());
+
+let m1='HI';
+let m2=' MY NAME';
+let m3=' IS ADITYA';
+
+let m= m1.concat(m2,m3);
+//Same as--> let m=m1+m2+m3;
+console.log(m);
+
+//Split method
+console.log(msge.split(' '));
