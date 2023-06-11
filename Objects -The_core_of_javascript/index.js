@@ -81,3 +81,29 @@
 // for(let val of Object.values(user)){
 //   console.log(val);
 // }
+
+
+//Exercise
+const salary={
+  aditya:2000,
+  raj:3000,
+  akshat:4000,
+  tyagi:5000,
+  vansh:6000,
+};
+
+let sum=0;
+
+for(let key in salary){
+  console.log(key, salary[key]);
+  sum = sum+ salary[key];
+}
+console.log(sum);
+
+
+// console.log(Object.values(salary));
+
+// for(let val of Object.values(salary)){
+//   sum +=val;
+// }
+// console.log(sum);
