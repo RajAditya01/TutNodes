@@ -109,4 +109,29 @@
 // console.log(sum);
 
 
-//Exercise 2. 
+//Exercise 2. Object Destructuring
+
+const user = {
+  name: 'Aditya',
+  age: 18,
+  hobby: 'Reading',
+  favBook:{
+    bookname: 'Thing and grow Rich',
+    bookauthor: 'raj',
+  },
+};
+
+// console.log(user.name);
+// console.log(user.age);
+// console.log(user.hobby);
+// console.log(user.favBook.bookauthor);
+// console.log(user.favBook.bookname);
+
+//Same works using the Destructuring
+const {name,age,hobby,favBook} = user;
+
+console.log(name);
+console.log(age);
+console.log(hobby);
+console.log(favBook.bookauthor);
+console.log(favBook.bookname);
