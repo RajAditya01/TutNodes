@@ -12,3 +12,8 @@
 // console.log(includes('aditya'));
 // console.log(msge.startsWith('hii'));
 // console.log(msge.endsWith('aditya'));
+
+let msge="hii my name is aditya";
+let tem= 123;
+console.log(tem.toString());
+console.log(typeof tem.toString());
