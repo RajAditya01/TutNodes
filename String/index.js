@@ -42,3 +42,10 @@
 
 // //only difference blw slice, substring substr is in substr 2nd parameter is length and slice & substring 2nd parameter is a length ;
 // console.log(msge.substr(0,4));
+
+//Print this-->
+//  Hii Aditya "It's a nice cource".
+//How are you
+
+let message='\tHii Aditya "It\'s a nice cource".\nHow are you?';
+console.log(message);
