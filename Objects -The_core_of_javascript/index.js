@@ -83,7 +83,7 @@
 // }
 
 
-//Exercise
+//Exercise Total salaries
 const salary={
   aditya:2000,
   raj:3000,
