@@ -83,22 +83,22 @@
 // }
 
 
-//Exercise Total salaries
-const salary={
-  aditya:2000,
-  raj:3000,
-  akshat:4000,
-  tyagi:5000,
-  vansh:6000,
-};
+//Exercise 1. Total salaries
+// const salary={
+//   aditya:2000,
+//   raj:3000,
+//   akshat:4000,
+//   tyagi:5000,
+//   vansh:6000,
+// };
 
-let sum=0;
+// let sum=0;
 
-for(let key in salary){
-  console.log(key, salary[key]);
-  sum = sum+ salary[key];
-}
-console.log(sum);
+// for(let key in salary){
+//   console.log(key, salary[key]);
+//   sum = sum+ salary[key];
+// }
+// console.log(sum);
 
 
 // console.log(Object.values(salary));
@@ -107,3 +107,6 @@ console.log(sum);
 //   sum +=val;
 // }
 // console.log(sum);
+
+
+//Exercise 2. 
