@@ -188,3 +188,11 @@
 
 
 //JSON Data Format
+const user = {
+  name: 'Aditya',
+  age: 18,
+};
+
+const jsoData = JSON.stringify(user);
+console.log(jsoData);
+console.log(JSON.parse(jsoData));
