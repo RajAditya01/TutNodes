@@ -77,3 +77,7 @@ for(let key in user){
 //two way
 console.log(Object.keys(user));
 console.log(Object.values(user));
+
+for(let val of Object.values(user)){
+  console.log(val);
+}
