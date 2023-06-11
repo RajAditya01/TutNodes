@@ -60,24 +60,24 @@
 
 
 //Traversing Object
-const user = {
-  name: 'Aditya',
-  age: 18,
-  hobby: 'Reading',
-  isMarried: false,
-  friend: ['Deepak', 'Akshat', 'Rishav'],
-  email: 'abc@gmail.com',
-};
+// const user = {
+//   name: 'Aditya',
+//   age: 18,
+//   hobby: 'Reading',
+//   isMarried: false,
+//   friend: ['Deepak', 'Akshat', 'Rishav'],
+//   email: 'abc@gmail.com',
+// };
 
-//one way
-for(let key in user){
-  console.log(key, user[key]);
-}
+// //one way
+// for(let key in user){
+//   console.log(key, user[key]);
+// }
 
-//two way
-console.log(Object.keys(user));
-console.log(Object.values(user));
+// //two way
+// console.log(Object.keys(user));
+// console.log(Object.values(user));
 
-for(let val of Object.values(user)){
-  console.log(val);
-}
+// for(let val of Object.values(user)){
+//   console.log(val);
+// }
