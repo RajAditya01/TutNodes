@@ -139,10 +139,10 @@
 
 //Cloning an object
 
-const user = {
-  name: 'Aditya',
-  age: 18,
-};
+// const user = {
+//   name: 'Aditya',
+//   age: 18,
+// };
 
 //Type 1-->
 // const copiedUser= {};
@@ -156,6 +156,32 @@ const user = {
 // }
 
 //Type 3
-const copiedUser = Object.assign({},user);
+// const copiedUser = Object.assign({},user);
 
-console.log(copiedUser)
+// console.log(copiedUser)
+
+
+//Math Object
+// console.log(Math.PI);
+// console.log(Math.random);
+// console.log(Math.round(4.9));
+// Math.ceil(4.9);
+// Math.floor(4.9);
+// Math.trunc(4.9);
+// Math.sign(-4);
+// Math.pow(8, 2);
+// //w3school
+// Math.E        // returns Euler's number
+// Math.PI       // returns PI
+// Math.SQRT2    // returns the square root of 2
+// Math.SQRT1_2  // returns the square root of 1/2
+// Math.LN2      // returns the natural logarithm of 2
+// Math.LN10     // returns the natural logarithm of 10
+// Math.LOG2E    // returns base 2 logarithm of E
+// Math.LOG10E   // returns base 10 logarithm of E
+
+
+// Math.round(x)	Returns x rounded to its nearest integer
+// Math.ceil(x)	Returns x rounded up to its nearest integer
+// Math.floor(x)	Returns x rounded down to its nearest integer
+// Math.trunc(x)	Returns the integer part of x (new in ES6)
