@@ -47,5 +47,12 @@
 //  Hii Aditya "It's a nice cource".
 //How are you
 
-let message='\tHii Aditya "It\'s a nice cource".\nHow are you?';
+// let message='\tHii Aditya "It\'s a nice cource".\nHow are you?';
+// console.log(message);
+
+// String Immutability
+
+let message= 'ji Aditya';
+message[0]='H'; // can not change bcz string is immutable we re-assign the value
+message='Hii Aditya';
 console.log(message);
