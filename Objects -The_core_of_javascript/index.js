@@ -111,15 +111,15 @@
 
 //Exercise 2. Object Destructuring
 
-const user = {
-  name: 'Aditya',
-  age: 18,
-  hobby: 'Reading',
-  favBook:{
-    bookname: 'Thing and grow Rich',
-    bookauthor: 'raj',
-  },
-};
+// const user = {
+//   name: 'Aditya',
+//   age: 18,
+//   hobby: 'Reading',
+//   favBook:{
+//     bookname: 'Thing and grow Rich',
+//     bookauthor: 'raj',
+//   },
+// };
 
 // console.log(user.name);
 // console.log(user.age);
@@ -128,10 +128,34 @@ const user = {
 // console.log(user.favBook.bookname);
 
 //Same works using the Destructuring
-const {name,age,hobby,favBook} = user;
+// const {name,age,hobby,favBook} = user;
 
-console.log(name);
-console.log(age);
-console.log(hobby);
-console.log(favBook.bookauthor);
-console.log(favBook.bookname);
+// console.log(name);
+// console.log(age);
+// console.log(hobby);
+// console.log(favBook.bookauthor);
+// console.log(favBook.bookname);
+
+
+//Cloning an object
+
+const user = {
+  name: 'Aditya',
+  age: 18,
+};
+
+//Type 1-->
+// const copiedUser= {};
+// copiedUser.name= user.name;
+// copiedUser.age=user.age
+
+// //Type 2-->
+// for(let key in user){
+//   console.log(key,user[key]);
+//   copiedUser[key]=user[key]
+// }
+
+//Type 3
+const copiedUser = Object.assign({},user);
+
+console.log(copiedUser)
