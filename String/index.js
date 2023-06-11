@@ -29,16 +29,16 @@
 // //Split method
 // console.log(msge.split(' '));
 
-let msge="hi my name is aditya";
-console.log(msge.slice(0,5));
-console.log(msge.slice(6,12));
-console.log(msge.slice(2));
-console.log(msge.slice());
-console.log(msge.slice(0));
-console.log(msge.slice(-12,-1));
+// let msge="hi my name is aditya";
+// console.log(msge.slice(0,5));
+// console.log(msge.slice(6,12));
+// console.log(msge.slice(2));
+// console.log(msge.slice());
+// console.log(msge.slice(0));
+// console.log(msge.slice(-12,-1));
 
 
-console.log(msge.substring(0,3));
+// console.log(msge.substring(0,3));
 
-//only difference blw slice, substring substr is in substr 2nd parameter is length and slice & substring 2nd parameter is a length ;
-console.log(msge.substr(0,4));
+// //only difference blw slice, substring substr is in substr 2nd parameter is length and slice & substring 2nd parameter is a length ;
+// console.log(msge.substr(0,4));
