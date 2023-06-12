@@ -119,4 +119,8 @@ const num1=[1,2,3];
 const num2=[4,5,6,7,8];
 
 const num= num1.concat(num2);
-console.log(num);
+//console.log(num);
+
+const arr=[1,2,3,4,5,6,7,8,9];
+const sliceArray = arr.slice(3,6);
+console.log(sliceArray);
