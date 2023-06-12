@@ -128,9 +128,9 @@ console.log(data);
 // l-10
 //Spread Operator
 
-const arr=[1,2,3,4,5,6,7,8];
-console.log(...arr);
-console.log(arr[0], arr[1]);
+// const arr=[1,2,3,4,5,6,7,8];
+// console.log(...arr);
+// console.log(arr[0], arr[1]);
 //console.log(arr);
 
 const copiedArray = [...arr];
@@ -157,7 +157,7 @@ const num= [...num1,...num2];
 //l-12
 //ES6 Feature : Map
 
-let numbers=[1,2,3,4,5,6,7,8];
+//let numbers=[1,2,3,4,5,6,7,8];
 // let mulByTwo =[];
 
 // for( let num of numbers){
@@ -166,18 +166,32 @@ let numbers=[1,2,3,4,5,6,7,8];
 // console.log(mulByTwo);
 
 
-const mulByTwo =numbers.map(function(num){
-    return num * 2;
-})
-console.log(mulByTwo);
+// const mulByTwo =numbers.map(function(num){
+//     return num * 2;
+// })
+// console.log(mulByTwo);
 
-let doctor= [
-    {name: 'aditya' , age : 20},
-    {name: 'anubhav', age : 25},
-    {name: 'akshit', age : 24},
-];
+// let doctor= [
+//     {name: 'aditya' , age : 20},
+//     {name: 'anubhav', age : 25},
+//     {name: 'akshit', age : 24},
+// ];
 
-const docName = doctor.map((doc) => doc.name);
-const docage = doctor.map((doc) => doc.age);
-console.log(docName);
-console.log(docage);
+// const docName = doctor.map((doc) => doc.name);
+// const docage = doctor.map((doc) => doc.age);
+// console.log(docName);
+// console.log(docage);
+
+// l-13
+//ES6 Feature : Filtering an Array
+
+let numbers=[1,2,3,4,5,6,7,8];
+let onlyOddNo=[];
+
+for(let num of numbers){
+    if(num % 2 !== 1){
+        onlyOddNo.push(num);
+    }
+}
+
+console.log(onlyOddNo);
