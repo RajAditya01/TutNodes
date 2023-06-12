@@ -158,9 +158,15 @@ const num= [...num1,...num2];
 //ES6 Feature : Map
 
 let numbers=[1,2,3,4,5,6,7,8];
-let mulByTwo =[];
+// let mulByTwo =[];
 
-for( let num of numbers){
-    mulByTwo.push(num*2);
-}
+// for( let num of numbers){
+//     mulByTwo.push(num*2);
+// }
+// console.log(mulByTwo);
+
+
+const mulByTwo =numbers.map(function(num){
+    return num * 2;
+})
 console.log(mulByTwo);
