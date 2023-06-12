@@ -100,17 +100,17 @@ let friend =['Aditya','akshat','punit','gautam'];
 //l-8
 //Array method  -every and some
 
-const number=[6,8,7,-2,1,9];
+//const number=[6,8,7,-2,1,9];
 
 // const data = number.every(function(num){
 //     return num>0;
 // });
 // console.log(data);
 
-const data = number.some(function(num){
-    return num>0;
-});
-console.log(data);
+// const data = number.some(function(num){
+//     return num>0;
+// });
+// console.log(data);
 // l-9
 
 //array method - concat, slice
@@ -133,13 +133,13 @@ console.log(data);
 // console.log(arr[0], arr[1]);
 //console.log(arr);
 
-const copiedArray = [...arr];
+//const copiedArray = [...arr];
 //console.log(copiedArray);
 
-const num1=[1,2,3];
-const num2=[4,5,6];
+// const num1=[1,2,3];
+// const num2=[4,5,6];
 
-const num= [...num1,...num2];
+//const num= [...num1,...num2];
 //console.log(num);
 
 
@@ -185,13 +185,31 @@ const num= [...num1,...num2];
 // l-13
 //ES6 Feature : Filtering an Array
 
-let numbers=[1,2,3,4,5,6,7,8];
-let onlyOddNo=[];
+//let numbers=[1,2,3,4,5,6,7,8];
+// let onlyOddNo=[];
 
-for(let num of numbers){
-    if(num % 2 !== 1){
-        onlyOddNo.push(num);
-    }
+// for(let num of numbers){
+//     if(num % 2 !== 1){
+//         onlyOddNo.push(num);
+//     }
+// }
+
+//console.log(onlyOddNo);
+
+
+// l-14
+
+//Array Method : Reduce
+
+let nums=[10,20,30];
+
+let sum=0;
+for(let  num of nums){
+    sum= sum + num;
 }
+console.log(sum);
 
-console.log(onlyOddNo);
+const ReduceSum = nums.reduce(function(sum,num){
+    return sum+num;
+},0);
+console.log(ReduceSum);
