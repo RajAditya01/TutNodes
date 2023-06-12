@@ -76,22 +76,38 @@ let friend =['Aditya','akshat','punit','gautam'];
 // l-7
 //sorting and reversing array
 
-const number=[6,8,7,2,1,9];
+// const number=[6,8,7,2,1,9];
 
-number.sort();
-number.reverse();
+// number.sort();
+// number.reverse();
 
-console.log(number);
+// console.log(number);
 
-let doctor= [
-    {name: 'aditya' , age : 20},
-    {name: 'anubhav', age : 25},
-    {name: 'akshit', age : 24},
-];
+// let doctor= [
+//     {name: 'aditya' , age : 20},
+//     {name: 'anubhav', age : 25},
+//     {name: 'akshit', age : 24},
+// ];
 
-doctor.sort(function(d1,d2){
-    if(d1.age>d2.age) return +1;
-    if(d1.age===d2.age) return 0;
-    if(d1.age<d2.age) return -1;
+// doctor.sort(function(d1,d2){
+//     if(d1.age>d2.age) return +1;
+//     if(d1.age===d2.age) return 0;
+//     if(d1.age<d2.age) return -1;
+// });
+// console.log(doctor);
+
+
+//l-8
+//Array method  -every and some
+
+const number=[6,8,7,-2,1,9];
+
+// const data = number.every(function(num){
+//     return num>0;
+// });
+// console.log(data);
+
+const data = number.some(function(num){
+    return num>0;
 });
-console.log(doctor);
+console.log(data);
