@@ -131,25 +131,36 @@ console.log(data);
 const arr=[1,2,3,4,5,6,7,8];
 console.log(...arr);
 console.log(arr[0], arr[1]);
-console.log(arr);
+//console.log(arr);
 
 const copiedArray = [...arr];
-console.log(copiedArray);
+//console.log(copiedArray);
 
 const num1=[1,2,3];
 const num2=[4,5,6];
 
 const num= [...num1,...num2];
-console.log(num);
+//console.log(num);
 
 
 //l-11
 //Joing Array
 
-let numbers=[1,2,3,4];
-let joinArray =numbers.join(' ');
-console.log(joinArray);
+// let numbers=[1,2,3,4];
+// let joinArray =numbers.join(' ');
+// console.log(joinArray);
 
-let message = 'Hii My name is Aditya Raj';
-const arrayMessage= message.split(' ');
-console.log(arrayMessage.join('-'))
+// let message = 'Hii My name is Aditya Raj';
+// const arrayMessage= message.split(' ');
+// console.log(arrayMessage.join('-'));
+
+//l-12
+//ES6 Feature : Map
+
+let numbers=[1,2,3,4,5,6,7,8];
+let mulByTwo =[];
+
+for( let num of numbers){
+    mulByTwo.push(num*2);
+}
+console.log(mulByTwo);
