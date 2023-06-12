@@ -170,3 +170,14 @@ const mulByTwo =numbers.map(function(num){
     return num * 2;
 })
 console.log(mulByTwo);
+
+let doctor= [
+    {name: 'aditya' , age : 20},
+    {name: 'anubhav', age : 25},
+    {name: 'akshit', age : 24},
+];
+
+const docName = doctor.map((doc) => doc.name);
+const docage = doctor.map((doc) => doc.age);
+console.log(docName);
+console.log(docage);
