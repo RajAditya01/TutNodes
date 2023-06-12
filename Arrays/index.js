@@ -144,3 +144,12 @@ console.log(num);
 
 
 //l-11
+//Joing Array
+
+let numbers=[1,2,3,4];
+let joinArray =numbers.join(' ');
+console.log(joinArray);
+
+let message = 'Hii My name is Aditya Raj';
+const arrayMessage= message.split(' ');
+console.log(arrayMessage.join('-'))
