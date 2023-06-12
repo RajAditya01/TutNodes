@@ -12,11 +12,11 @@ let friend =['Aditya','akshat','punit','gautam'];
 
 // const num=[12,13,14,17,18]
 
-num.unshift(9,10,11);
-num.push(19,20,21);
+// num.unshift(9,10,11);
+// num.push(19,20,21);
 
 
-num.splice(3,0,15,16);
+// num.splice(3,0,15,16);
 
 // console.log(num);
 
@@ -28,7 +28,7 @@ num.splice(3,0,15,16);
 // num1.pop();
 // num1.pop();
 
-num1.splice(2,2);
+// num1.splice(2,2);
 // console.log(num1);
 
 //l- 4
