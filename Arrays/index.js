@@ -111,3 +111,12 @@ const data = number.some(function(num){
     return num>0;
 });
 console.log(data);
+// l-9
+
+//array method - concat, slice
+
+const num1=[1,2,3];
+const num2=[4,5,6,7,8];
+
+const num= num1.concat(num2);
+console.log(num);
