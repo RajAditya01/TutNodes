@@ -43,32 +43,55 @@ let friend =['Aditya','akshat','punit','gautam'];
 // l-5
 //finding object in array
 
-const doctor= [
-    {name: 'aditya' , age : 20},
-    {name: 'anubhav', age : 25},
-    {name: 'akshit', age : 24},
-];
+// const doctor= [
+//     {name: 'aditya' , age : 20},
+//     {name: 'anubhav', age : 25},
+//     {name: 'akshit', age : 24},
+// ];
 
-const result=doctor.find(function(doctor){
-    return doctor.age >10;
-});
+// const result=doctor.find(function(doctor){
+//     return doctor.age >10;
+// });
 
-console.log(result);
+// console.log(result);
 
 
 //l-6
 //iteration in array
 
-const arr=[1,2,3,4,5,6,7,8];
+// const arr=[1,2,3,4,5,6,7,8];
 
-for(let i=0; i<arr.length; i++){
-    console.log(i);
-};
+// for(let i=0; i<arr.length; i++){
+//     console.log(i);
+// };
 
-for(let i of arr){
-    console.log(i)
-}
+// for(let i of arr){
+//     console.log(i)
+// }
 
-arr.forEach(function(num,index){
-    console.log(num,index);
+// arr.forEach(function(num,index){
+//     console.log(num,index);
+// });
+
+// l-7
+//sorting and reversing array
+
+const number=[6,8,7,2,1,9];
+
+number.sort();
+number.reverse();
+
+console.log(number);
+
+let doctor= [
+    {name: 'aditya' , age : 20},
+    {name: 'anubhav', age : 25},
+    {name: 'akshit', age : 24},
+];
+
+doctor.sort(function(d1,d2){
+    if(d1.age>d2.age) return +1;
+    if(d1.age===d2.age) return 0;
+    if(d1.age<d2.age) return -1;
 });
+console.log(doctor);
