@@ -54,3 +54,21 @@ const result=doctor.find(function(doctor){
 });
 
 console.log(result);
+
+
+//l-6
+//iteration in array
+
+const arr=[1,2,3,4,5,6,7,8];
+
+for(let i=0; i<arr.length; i++){
+    console.log(i);
+};
+
+for(let i of arr){
+    console.log(i)
+}
+
+arr.forEach(function(num,index){
+    console.log(num,index);
+});
