@@ -32,10 +32,25 @@ let friend =['Aditya','akshat','punit','gautam'];
 // console.log(num1);
 
 //l- 4
-const num=[1,2,3,2,5,6,4,5,6,7,8]
+// const num=[1,2,3,2,5,6,4,5,6,7,8]
 
-console.log(num.includes(6,4));
-console.log(num.indexOf(2));
-console.log(num.lastIndexOf(2));
+// console.log(num.includes(6,4));
+// console.log(num.indexOf(2));
+// console.log(num.lastIndexOf(2));
 
-console.log(num);
+// console.log(num);
+
+// l-5
+//finding object in array
+
+const doctor= [
+    {name: 'aditya' , age : 20},
+    {name: 'anubhav', age : 25},
+    {name: 'akshit', age : 24},
+];
+
+const result=doctor.find(function(doctor){
+    return doctor.age >10;
+});
+
+console.log(result);
