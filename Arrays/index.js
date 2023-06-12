@@ -121,6 +121,14 @@ const num2=[4,5,6,7,8];
 const num= num1.concat(num2);
 //console.log(num);
 
-const arr=[1,2,3,4,5,6,7,8,9];
-const sliceArray = arr.slice(3,6);
-console.log(sliceArray);
+// const arr=[1,2,3,4,5,6,7,8,9];
+// const sliceArray = arr.slice(3,6);
+// console.log(sliceArray);
+
+// l-10
+//Spread Operator
+
+const arr=[1,2,3,4,5,6,7,8];
+console.log(...arr);
+console.log(arr[0], arr[1]);
+console.log(arr);
