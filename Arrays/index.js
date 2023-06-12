@@ -115,10 +115,10 @@ console.log(data);
 
 //array method - concat, slice
 
-const num1=[1,2,3];
-const num2=[4,5,6,7,8];
+// const num1=[1,2,3];
+// const num2=[4,5,6,7,8];
 
-const num= num1.concat(num2);
+//const num= num1.concat(num2);
 //console.log(num);
 
 // const arr=[1,2,3,4,5,6,7,8,9];
@@ -132,3 +132,15 @@ const arr=[1,2,3,4,5,6,7,8];
 console.log(...arr);
 console.log(arr[0], arr[1]);
 console.log(arr);
+
+const copiedArray = [...arr];
+console.log(copiedArray);
+
+const num1=[1,2,3];
+const num2=[4,5,6];
+
+const num= [...num1,...num2];
+console.log(num);
+
+
+//l-11
