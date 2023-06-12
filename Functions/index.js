@@ -20,7 +20,7 @@
 // console.log(result);
 
 
-//lac 2
+// lac-2
 // Default Parameter
 
 function calSum(num1,num2=50,num3=60){
@@ -30,7 +30,7 @@ function calSum(num1,num2=50,num3=60){
 
 console.log(calSum(10));
 
-//l-3
+// l-3
 //function expression
 
 const calSumExp= function(num1,num2){
@@ -38,3 +38,19 @@ const calSumExp= function(num1,num2){
     return sum;
 }
 console.log(calSumExp(50,60));
+
+// l-4
+
+//Arrow Function
+const calSumArr= (num1,num2) => num1+num2;
+console.log(calSumArr(40,30));
+
+//Function expression
+const mulByTwo = function(num1){
+    return num1*2;
+}
+console.log(mulByTwo(6));
+
+//Arrow function
+const ArrowMultiply= (num1) => num1*2;
+console.log(ArrowMultiply(15));
