@@ -47,23 +47,43 @@
 //l-3
 // Map
 
-let map= new Map();
+// let map= new Map();
 
-map.set('Mango' , 'Aam');
-map.set('Banana', 'Kela');
-map.set('Score',100);
+// map.set('Mango' , 'Aam');
+// map.set('Banana', 'Kela');
+// map.set('Score',100);
 
-console.log(map);
+// console.log(map);
 
-for(let i of map){
-    console.log(i);
-}
+// for(let i of map){
+//     console.log(i);
+// }
 
-console.log(map.has('Mango'));
-console.log(map);
+// console.log(map.has('Mango'));
+// console.log(map);
 
-console.log(map.values());
-console.log(map.keys());
+// console.log(map.values());
+// console.log(map.keys());
 
-map.clear();
-console.log(map);
+// map.clear();
+// console.log(map);
+
+
+//weak set, weak map
+//l-4
+// Only diff blw weak set and se it only support as an object not string and boolean values.
+const ws = new WeakSet();
+
+const obj1= {};
+const obj2= {};
+
+ws.add(obj1);
+ws.add(obj2);
+
+console.log(ws);
+
+console.log(ws.has(obj1));
+console.log(ws.has(obj2));
+
+ws.delete(obj1);
+console.log(ws.has(obj1));
