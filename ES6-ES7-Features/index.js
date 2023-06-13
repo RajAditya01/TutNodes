@@ -72,29 +72,35 @@
 //weak set, weak map
 //l-4
 // Only diff blw weak set and se it only support as an object not string and boolean values.
-const ws = new WeakSet();
+// const ws = new WeakSet();
 
-const obj1= {};
-const obj2= {};
+// const obj1= {};
+// const obj2= {};
 
-ws.add(obj1);
-ws.add(obj2);
+// ws.add(obj1);
+// ws.add(obj2);
 
-console.log(ws);
+// console.log(ws);
 
-console.log(ws.has(obj1));
-console.log(ws.has(obj2));
+// console.log(ws.has(obj1));
+// console.log(ws.has(obj2));
 
-ws.delete(obj1);
-console.log(ws.has(obj1));
+// ws.delete(obj1);
+// console.log(ws.has(obj1));
 
-//weak map
-const wm = new WeakMap();
+// //weak map
+// const wm = new WeakMap();
 
-wm.set(obj1,123456);
-console.log(obj1);
-console.log(wm.has(obj1));
-console.log(wm.get(obj1));
+// wm.set(obj1,123456);
+// console.log(obj1);
+// console.log(wm.has(obj1));
+// console.log(wm.get(obj1));
 
-wm.delete(obj1);
-console.log(wm.has());
+// wm.delete(obj1);
+// console.log(wm.has());
+
+//l-5
+//Module
+
+import addNumber  from "./main.js";
+console.log(addNumber(10,30));
