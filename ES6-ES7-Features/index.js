@@ -104,3 +104,8 @@
 
 import addNumber  from "./main.js";
 console.log(addNumber(10,30));
+
+
+//l-6
+//padstart, padEnd  trimStart, trinEnd
+
