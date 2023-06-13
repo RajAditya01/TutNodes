@@ -33,22 +33,34 @@
 // console.log(user1);
 
 //l-3
-// Create object using factory and constructor function
-const homeAddress1 = homeAddress('A','B','C');
-const homeAddress1 = homeAddress('X','Y','Z');
+// Create object using factory and constructor
+// const homeAddress1 = homeAddress('A','B','C');
+// const homeAddress1 = homeAddress('X','Y','Z');
 
-function homeAddress(street,city,zipcode){
-    return{
-        street,
-        city,
-        zipcode,
-    };
-}
+// function homeAddress(street,city,zipcode){
+//     return{
+//         street,
+//         city,
+//         zipcode,
+//     };
+// }
 
-function HomeAddress(street,city,zipcode){
-    this.street=street;
-    this.city=city;
-    this.zipcode=zipcode;
+// function HomeAddress(street,city,zipcode){
+//     this.street=street;
+//     this.city=city;
+//     this.zipcode=zipcode;
+// }
+
+// console.log(homeAddress1);
+// console.log(homeAddress2);
+
+const homeAddress1 = new HomeAddress('A', 'B', 'C');
+const homeAddress2 = new HomeAddress('X', 'Y', 'Z');
+
+function HomeAddress(street, city, zipcode) {
+    this.street = street;
+    this.city = city;
+    this.zipcode = zipcode;
 }
 
 console.log(homeAddress1);
