@@ -18,15 +18,38 @@
 // console.log(user1, user2);
 
 //L-2
-function user(name, age){
-    console.log(this);
-    this.name=name;
-    this.age=age;
-    this.walk= function(){
-        console.log('Aditya Starting walking');
+//create Constructor Functions
+// function user(name, age){
+//     console.log(this);
+//     this.name=name;
+//     this.age=age;
+//     this.walk= function(){
+//         console.log('Aditya Starting walking');
+//     };
+//     console.log(this);
+// }
+
+// const user1 = new user(Aditya,18);
+// console.log(user1);
+
+//l-3
+// Create object using factory and constructor function
+const homeAddress1 = homeAddress('A','B','C');
+const homeAddress1 = homeAddress('X','Y','Z');
+
+function homeAddress(street,city,zipcode){
+    return{
+        street,
+        city,
+        zipcode,
     };
-    console.log(this);
 }
 
-const user1 = new user(Aditya,18);
-console.log(user1);
+function HomeAddress(street,city,zipcode){
+    this.street=street;
+    this.city=city;
+    this.zipcode=zipcode;
+}
+
+console.log(homeAddress1);
+console.log(homeAddress2);
