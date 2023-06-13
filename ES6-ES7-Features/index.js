@@ -87,3 +87,14 @@ console.log(ws.has(obj2));
 
 ws.delete(obj1);
 console.log(ws.has(obj1));
+
+//weak map
+const wm = new WeakMap();
+
+wm.set(obj1,123456);
+console.log(obj1);
+console.log(wm.has(obj1));
+console.log(wm.get(obj1));
+
+wm.delete(obj1);
+console.log(wm.has());
