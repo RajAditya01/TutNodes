@@ -20,9 +20,14 @@ function div(a,b){
     return a/b;
 }
 
-console.log(div(4,0));
+//console.log(div(4,0));
 
 //l -3
 try{console.log(div(4,0));}
-catch(e){console.log(e)}
-finally{ console.log('Its work perefect')}
+catch(e){
+    console.log(e);
+    console.log(e.name);
+    console.log(e.message);
+}
+finally{ console.log('Its work perefect')};
+console.log('Hii Aditya');
