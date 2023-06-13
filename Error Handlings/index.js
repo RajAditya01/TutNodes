@@ -21,3 +21,8 @@ function div(a,b){
 }
 
 console.log(div(4,0));
+
+//l -3
+try{console.log(div(4,0));}
+catch(e){console.log(e)}
+finally{ console.log('Its work perefect')}
