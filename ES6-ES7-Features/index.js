@@ -23,23 +23,34 @@
 
 //l -2
 //Data Structure : Set
-let set =new Set();
-set.add(100);
-set.add(200);
-set.add(300);
-set.add(100);
+// let set =new Set();
+// set.add(100);
+// set.add(200);
+// set.add(300);
+// set.add(100);
 
-console.log(set);
-console.log(set.size);
-set.delete(200);
-console.log(set);
-console.log(set.size);
+// console.log(set);
+// console.log(set.size);
+// set.delete(200);
+// console.log(set);
+// console.log(set.size);
 
-for(let i of set){
-    console.log(i);
-}
+// for(let i of set){
+//     console.log(i);
+// }
 
-set.forEach((i) => console.log(i));
+// set.forEach((i) => console.log(i));
 
-set.clear();
-console.log(set);
+// set.clear();
+// console.log(set);
+
+//l-3
+// Map
+
+let map= new Map();
+
+map.set('Mango' , 'Aam');
+map.set('Banana', 'Kela');
+map.set('Score',100);
+
+console.log(map);
