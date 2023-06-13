@@ -109,3 +109,18 @@ console.log(addNumber(10,30));
 //l-6
 //padstart, padEnd  trimStart, trinEnd
 
+let min= '5';
+let hors= '8';
+
+console.log(min.padStart(4,'0'));
+console.log(hors.padEnd(5,'0'));
+
+let trimName= '   Aditya   ';
+
+console.log(trimName.length);
+
+trimName = trimName.trimEnd();
+console.log(trimName.length);
+console.log(trimName);
+
+console.log(trimName.trimStart());
