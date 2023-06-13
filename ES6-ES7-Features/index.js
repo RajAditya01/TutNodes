@@ -54,3 +54,16 @@ map.set('Banana', 'Kela');
 map.set('Score',100);
 
 console.log(map);
+
+for(let i of map){
+    console.log(i);
+}
+
+console.log(map.has('Mango'));
+console.log(map);
+
+console.log(map.values());
+console.log(map.keys());
+
+map.clear();
+console.log(map);
