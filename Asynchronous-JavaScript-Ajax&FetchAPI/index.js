@@ -33,3 +33,4 @@ function fetchUser(userId,callback){
         callback(fetchUser);
     },2000);
 }
+
