@@ -34,3 +34,5 @@ function fetchUser(userId,callback){
     },2000);
 }
 
+//l-3 
+// callback Hell
