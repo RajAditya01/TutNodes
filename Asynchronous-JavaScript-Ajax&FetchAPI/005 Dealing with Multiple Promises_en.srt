@@ -1,0 +1,360 @@
+1
+00:00:00,180 --> 00:00:01,770
+Hello, friend, welcome back.
+
+2
+00:00:02,040 --> 00:00:06,480
+In this video, I want to discuss about how can dealing with multiple parameters?
+
+3
+00:00:06,810 --> 00:00:10,040
+I show you the life example, then that will be very interactive.
+
+4
+00:00:10,050 --> 00:00:11,490
+I simply will be everything.
+
+5
+00:00:11,760 --> 00:00:14,950
+And first of all, I want to do and declare two of these promises.
+
+6
+00:00:14,970 --> 00:00:18,150
+I hope you already know that is a variable I take on.
+
+7
+00:00:18,150 --> 00:00:20,880
+Namely, does a promise a promise one?
+
+8
+00:00:21,180 --> 00:00:21,530
+OK.
+
+9
+00:00:21,840 --> 00:00:24,340
+And then the two, I want to turn to declare this promise.
+
+10
+00:00:24,420 --> 00:00:26,760
+That is to declare that new and then promise.
+
+11
+00:00:26,760 --> 00:00:30,060
+I simply declare I'm here to do part two of this parameter, right?
+
+12
+00:00:30,390 --> 00:00:33,450
+And here there is a function with the function of the end 12:02.
+
+13
+00:00:33,450 --> 00:00:36,210
+This parameter one parameter will be as a result.
+
+14
+00:00:37,230 --> 00:00:41,000
+And also the parameter function will be as a result, right?
+
+15
+00:00:41,370 --> 00:00:44,610
+And how what exactly the result, what exactly that I reject.
+
+16
+00:00:44,610 --> 00:00:45,830
+I hope you already know about it.
+
+17
+00:00:45,840 --> 00:00:51,120
+If you get perfect data, then you can display with the result rather than if there are any add or we
+
+18
+00:00:51,120 --> 00:00:53,220
+can build it with this respect, right?
+
+19
+00:00:53,580 --> 00:00:55,160
+So simply take both of this.
+
+20
+00:00:55,170 --> 00:00:57,090
+And here I declare the array function.
+
+21
+00:00:57,180 --> 00:00:57,480
+OK.
+
+22
+00:00:57,510 --> 00:00:58,790
+That is the added function.
+
+23
+00:00:58,800 --> 00:01:04,379
+And now I want to declare on the set time out and this time down to declare the added function.
+
+24
+00:01:04,410 --> 00:01:07,500
+OK, that is our function and this function area here.
+
+25
+00:01:07,530 --> 00:01:16,050
+I want to do that every function and I want to run our result, get a result and enter this result variable
+
+26
+00:01:16,050 --> 00:01:18,300
+to pass one of the value as a one.
+
+27
+00:01:18,360 --> 00:01:18,670
+OK.
+
+28
+00:01:18,690 --> 00:01:23,610
+I simply pass one of the value of the one, and this one below will display our time out.
+
+29
+00:01:23,610 --> 00:01:26,160
+Time out will be added 2000 2000 millisecond.
+
+30
+00:01:26,190 --> 00:01:27,500
+OK, that is after that two.
+
+31
+00:01:27,510 --> 00:01:30,210
+Second that should we display other results?
+
+32
+00:01:30,270 --> 00:01:30,600
+One.
+
+33
+00:01:30,780 --> 00:01:31,080
+Right.
+
+34
+00:01:31,410 --> 00:01:33,600
+And also take another one I copied.
+
+35
+00:01:33,870 --> 00:01:40,530
+And then I pasted that will be as a promise to OK, you just simply name it as a promise to and then
+
+36
+00:01:40,530 --> 00:01:42,210
+that will be the result again.
+
+37
+00:01:42,510 --> 00:01:45,390
+And from here, I intended to pass it to value.
+
+38
+00:01:45,720 --> 00:01:48,810
+OK, so that is or it will be resolved by pass one.
+
+39
+00:01:49,020 --> 00:01:51,750
+And also in here, I pass that as a two.
+
+40
+00:01:52,110 --> 00:01:56,520
+So now if you want to display both of these, then what exactly you have to do, then that is a promise.
+
+41
+00:01:56,520 --> 00:01:59,280
+And then there is another matter the all method.
+
+42
+00:01:59,310 --> 00:02:03,340
+OK, so here we have to declare this all method and into this All-Nighter area.
+
+43
+00:02:03,360 --> 00:02:09,330
+I think that both of these with the added I have the two things that one is the promise promise one
+
+44
+00:02:09,330 --> 00:02:13,740
+and also the other one, the promise to promise to assembly.
+
+45
+00:02:13,740 --> 00:02:15,090
+Take both of these in here.
+
+46
+00:02:15,270 --> 00:02:18,780
+And then with this, then this then method into this the method.
+
+47
+00:02:18,780 --> 00:02:21,480
+I understand the pass on the result.
+
+48
+00:02:21,480 --> 00:02:23,910
+That means our response, OK, Balderas response.
+
+49
+00:02:24,240 --> 00:02:28,950
+And then do that with this added function, we decided to function, want to do and this played out
+
+50
+00:02:28,950 --> 00:02:34,460
+of his play or this console and then the console log into this console.log area on the display or who
+
+51
+00:02:34,470 --> 00:02:35,700
+used that under this blower?
+
+52
+00:02:35,730 --> 00:02:36,750
+This test data?
+
+53
+00:02:36,930 --> 00:02:38,490
+OK, here I have already get it.
+
+54
+00:02:38,820 --> 00:02:43,050
+I get both of these response data in all this parameter as a response.
+
+55
+00:02:43,320 --> 00:02:45,620
+And here I just simply painted.
+
+56
+00:02:45,750 --> 00:02:46,110
+OK.
+
+57
+00:02:46,350 --> 00:02:49,460
+And if they have any error, then what exactly you have to do?
+
+58
+00:02:49,470 --> 00:02:50,430
+We have to display it.
+
+59
+00:02:50,430 --> 00:02:51,980
+We don't get it right.
+
+60
+00:02:51,990 --> 00:02:52,950
+So that is all them.
+
+61
+00:02:53,190 --> 00:02:55,260
+And also that is another one as a catch.
+
+62
+00:02:55,290 --> 00:03:01,020
+So now I want to do two and also but use it, that is where the dock catch method, right?
+
+63
+00:03:01,030 --> 00:03:06,060
+That is a catch method seem to discuss properties that have any error, then that will be possible.
+
+64
+00:03:06,060 --> 00:03:06,780
+The error?
+
+65
+00:03:06,810 --> 00:03:12,630
+OK, but that name of that or and then they were at a function on the display, this arrow to the console
+
+66
+00:03:12,990 --> 00:03:14,330
+and then the console log.
+
+67
+00:03:14,340 --> 00:03:16,260
+I'm here to learn to parse this out.
+
+68
+00:03:16,950 --> 00:03:17,310
+OK.
+
+69
+00:03:17,760 --> 00:03:20,250
+I think at the point you already knew about it.
+
+70
+00:03:20,460 --> 00:03:25,920
+So now if you click on this, save, all right now, they have narrowed down the actual display to have
+
+71
+00:03:25,920 --> 00:03:27,270
+this dark back look at the refresh.
+
+72
+00:03:27,780 --> 00:03:34,300
+So after the two second tier inconsistent display or fast blue as a one and the other two, right?
+
+73
+00:03:34,710 --> 00:03:38,730
+So this ad agency, though, still perfectly displayed the one below two values.
+
+74
+00:03:38,730 --> 00:03:40,740
+So here I simply take as a one.
+
+75
+00:03:41,130 --> 00:03:46,380
+So you see this result here I pass one below and here there is another one as it developed.
+
+76
+00:03:46,770 --> 00:03:50,130
+So now if you want to display that error here, I have already loaded the catch.
+
+77
+00:03:50,130 --> 00:03:54,600
+But also with this catch method is to work with which one is that we work with respect, right?
+
+78
+00:03:54,900 --> 00:03:55,890
+So that is a risk.
+
+79
+00:03:55,890 --> 00:03:58,770
+And into the street, Victoria Island would be split on the message.
+
+80
+00:03:59,120 --> 00:04:02,490
+So if the display, then that would be the new and our outer object.
+
+81
+00:04:02,490 --> 00:04:03,810
+So that is our object.
+
+82
+00:04:03,810 --> 00:04:06,150
+And here what of the message you want to display?
+
+83
+00:04:06,150 --> 00:04:10,560
+Like, there have some issues.
+
+84
+00:04:11,220 --> 00:04:16,050
+So this step one of the masses that will be displayed right now if you click on the save all now, if
+
+85
+00:04:16,050 --> 00:04:17,940
+you go to the refresh.
+
+86
+00:04:18,360 --> 00:04:24,360
+So first of all, that will display consistent display as if they have some issues right out front,
+
+87
+00:04:24,360 --> 00:04:27,930
+you get the idea how to deal with multiple promises.
+
+88
+00:04:28,020 --> 00:04:28,440
+OK.
+
+89
+00:04:28,470 --> 00:04:29,690
+So thanks for watching.
+
+90
+00:04:29,700 --> 00:04:31,650
+I will see you in the next video.
+

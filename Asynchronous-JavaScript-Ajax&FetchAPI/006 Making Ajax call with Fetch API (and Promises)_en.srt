@@ -1,0 +1,464 @@
+1
+00:00:00,180 --> 00:00:05,190
+Hello, friend, welcome back in this video, under-discussed about one of the most important things
+
+2
+00:00:05,190 --> 00:00:06,510
+are the fetch API.
+
+3
+00:00:06,600 --> 00:00:08,340
+So that is a phage web API.
+
+4
+00:00:08,370 --> 00:00:08,760
+OK.
+
+5
+00:00:08,950 --> 00:00:12,940
+The index to the fetch API, we can get all the data.
+
+6
+00:00:12,960 --> 00:00:15,390
+We can also able to store this data.
+
+7
+00:00:15,780 --> 00:00:22,200
+So first of all, I want to do I want to get this data here to have the API as a API and then tap on
+
+8
+00:00:22,200 --> 00:00:23,620
+of the link for that user.
+
+9
+00:00:23,640 --> 00:00:25,350
+So that is already met API.
+
+10
+00:00:25,470 --> 00:00:25,740
+OK.
+
+11
+00:00:25,830 --> 00:00:28,410
+And here that is all of the user API.
+
+12
+00:00:28,770 --> 00:00:32,450
+So I want to do unto actually scratch all that user data.
+
+13
+00:00:32,460 --> 00:00:36,810
+That means this user data to fatty, then I want to visibility in our way.
+
+14
+00:00:36,870 --> 00:00:38,610
+OK, that means here on the visible light.
+
+15
+00:00:39,030 --> 00:00:42,990
+So if you want to do that work, then we can do that work with using this fetch.
+
+16
+00:00:43,080 --> 00:00:47,400
+That is one of the functions of with func this function, we can actually do that very easily.
+
+17
+00:00:47,400 --> 00:00:51,990
+I show you like that is I want to do and to remove everything.
+
+18
+00:00:52,260 --> 00:00:57,740
+So forget all that data from our API that is only that user API onto to get it.
+
+19
+00:00:57,750 --> 00:01:03,150
+So forget all the data now and don't use it on a that basically building function as a fact.
+
+20
+00:01:03,180 --> 00:01:03,570
+OK.
+
+21
+00:01:03,960 --> 00:01:08,100
+So you better make it as a fat web that is a fat API.
+
+22
+00:01:08,400 --> 00:01:08,700
+OK.
+
+23
+00:01:09,090 --> 00:01:14,640
+So now I want to turn to take one of the variable force that is on on a sector I take on and that constant
+
+24
+00:01:14,640 --> 00:01:18,220
+variable and then into this constant variable I meet doesn't get API.
+
+25
+00:01:18,270 --> 00:01:18,570
+OK?
+
+26
+00:01:18,720 --> 00:01:20,180
+I just simply want to take it.
+
+27
+00:01:20,600 --> 00:01:21,180
+Goodbye.
+
+28
+00:01:21,180 --> 00:01:24,540
+And now that is another building functionality, although that is a fetch.
+
+29
+00:01:24,540 --> 00:01:28,770
+I guess there is one of the building function and into this function area here.
+
+30
+00:01:28,770 --> 00:01:31,290
+I want to do and load our API.
+
+31
+00:01:31,290 --> 00:01:32,910
+That means that is our API.
+
+32
+00:01:33,060 --> 00:01:38,460
+OK, so that is one of the building API under the carpet and now I just simply passed it.
+
+33
+00:01:38,470 --> 00:01:40,710
+You can also get a lot of the fake API.
+
+34
+00:01:40,710 --> 00:01:45,030
+If you search into the Google, you can get some of that because if I did this on purpose, I'm actually
+
+35
+00:01:45,030 --> 00:01:45,570
+using it.
+
+36
+00:01:45,930 --> 00:01:48,480
+That is all the API and this API on the access.
+
+37
+00:01:48,810 --> 00:01:55,560
+So now if you want to print it, like here on to do with this console.log with this console.log, I
+
+38
+00:01:55,560 --> 00:01:58,920
+want to do it to print out this gift guide API.
+
+39
+00:01:59,280 --> 00:02:02,970
+And then what exactly this data will be displayed not going to get save all.
+
+40
+00:02:03,330 --> 00:02:11,070
+And now if you go and or browser refresh now because it is not past all of the promises, OK, there
+
+41
+00:02:11,430 --> 00:02:14,580
+is no past one of the promises and also the pending.
+
+42
+00:02:14,880 --> 00:02:20,490
+So when you get any promises, as I told you before, then we can able to access our two of this methods
+
+43
+00:02:20,490 --> 00:02:22,290
+to them and then cat, right?
+
+44
+00:02:22,530 --> 00:02:24,840
+So I want to do on to use it here.
+
+45
+00:02:24,930 --> 00:02:31,530
+So I with this get it API here to use that as a then matter and in this then matter area, whatever
+
+46
+00:02:31,530 --> 00:02:37,620
+the response that I would get beat down to make it as a functional area so that I get that response,
+
+47
+00:02:37,890 --> 00:02:39,510
+that this response data.
+
+48
+00:02:39,570 --> 00:02:44,440
+Look at this as one that I want to learn to print the Philippines, that it was a console log in with
+
+49
+00:02:44,440 --> 00:02:47,910
+the console log area here on the pass or distress.
+
+50
+00:02:47,970 --> 00:02:51,990
+OK, so here I simply pass it over and you already know about this part.
+
+51
+00:02:52,200 --> 00:02:56,460
+And also, if you want to declare the catch as well, you can also declare that it was a cat.
+
+52
+00:02:56,580 --> 00:02:56,980
+Right?
+
+53
+00:02:57,000 --> 00:02:58,260
+That is a catch method.
+
+54
+00:02:58,280 --> 00:03:02,370
+I already sketched method, but I want to make it into the end of the line.
+
+55
+00:03:02,820 --> 00:03:03,850
+There is a catch method.
+
+56
+00:03:03,870 --> 00:03:04,200
+OK.
+
+57
+00:03:04,500 --> 00:03:07,970
+I remember this catch method I want to do and two percent of their error.
+
+58
+00:03:08,160 --> 00:03:12,990
+That means if you have any error that will be displayed, this error, that is our functionality.
+
+59
+00:03:13,290 --> 00:03:17,760
+And here with this console log, with this console.log, I want to display this error.
+
+60
+00:03:18,210 --> 00:03:18,540
+OK.
+
+61
+00:03:18,960 --> 00:03:20,550
+I hope you already know about it.
+
+62
+00:03:20,790 --> 00:03:26,310
+And now if you click on the save all, if you're not going to get the save all, go there to the refresh.
+
+63
+00:03:26,460 --> 00:03:33,480
+OK, but I want to make it into the year now because it's not past some of the data here that your body
+
+64
+00:03:33,500 --> 00:03:37,720
+used as a false header color type, you are tell.
+
+65
+00:03:37,860 --> 00:03:42,310
+So that is one of the response and into this response data that is on the body.
+
+66
+00:03:42,330 --> 00:03:47,730
+OK, into this body, if you open it now you see on games that are readable, esteemed data.
+
+67
+00:03:48,090 --> 00:03:52,890
+So here now we have to do you have to access, are these readable and stream all that data?
+
+68
+00:03:53,190 --> 00:03:56,220
+So if you want to access it, then we have to work in here.
+
+69
+00:03:56,400 --> 00:03:58,620
+So now on to do I want to get this data.
+
+70
+00:03:58,680 --> 00:03:59,880
+I want to get all that.
+
+71
+00:03:59,880 --> 00:04:01,530
+Our user details data right?
+
+72
+00:04:01,950 --> 00:04:06,090
+If you want to get it, then also to have done the building method as a JSON.
+
+73
+00:04:06,090 --> 00:04:09,700
+So that is on the JSON that I wanted to call out this JSON.
+
+74
+00:04:09,720 --> 00:04:12,390
+So right now, we're trying to move it, OK, remove it.
+
+75
+00:04:12,690 --> 00:04:16,200
+And then I want to call this response to that is a response.
+
+76
+00:04:16,209 --> 00:04:17,220
+And then just on.
+
+77
+00:04:17,279 --> 00:04:17,579
+OK.
+
+78
+00:04:17,640 --> 00:04:18,690
+That is not just a method.
+
+79
+00:04:19,149 --> 00:04:21,390
+So I simply call it a comment.
+
+80
+00:04:21,630 --> 00:04:27,390
+And after that, after that here right now, that is all the promises data so we can use and then say,
+
+81
+00:04:27,390 --> 00:04:31,680
+make it as an adult, then then method and then method area here to pass.
+
+82
+00:04:31,680 --> 00:04:35,730
+While the parameter, the profile that the user profile or whatever you choose right now make it as
+
+83
+00:04:35,730 --> 00:04:36,270
+a profile.
+
+84
+00:04:36,720 --> 00:04:41,270
+And then with our array function here, I want to do either display or this profile that is account
+
+85
+00:04:41,390 --> 00:04:45,510
+console.log and this console.log area here to parse that profile.
+
+86
+00:04:45,750 --> 00:04:46,080
+OK?
+
+87
+00:04:46,140 --> 00:04:47,580
+I simply parsed this profile.
+
+88
+00:04:48,000 --> 00:04:51,600
+And now if you arrange it, so that is all the JSON data.
+
+89
+00:04:51,600 --> 00:04:53,160
+So it is just one will get all.
+
+90
+00:04:53,550 --> 00:04:56,310
+We are able to access all that our this user API.
+
+91
+00:04:56,880 --> 00:04:57,210
+OK.
+
+92
+00:04:57,540 --> 00:04:58,950
+So just don't get this data.
+
+93
+00:04:58,950 --> 00:04:59,880
+That is all I have.
+
+94
+00:04:59,950 --> 00:05:04,480
+Already taken out of there then, and I just take one of the parameters, the profiles right now, all
+
+95
+00:05:04,480 --> 00:05:05,830
+the data into this profile.
+
+96
+00:05:06,100 --> 00:05:08,830
+So now I want to do under-display this profile dataset.
+
+97
+00:05:08,830 --> 00:05:10,750
+With this console.log, I display this profile.
+
+98
+00:05:11,110 --> 00:05:17,860
+Now, if you click the save all and now if you go clear the refresh so you can see it's not successfully
+
+99
+00:05:17,860 --> 00:05:20,140
+now, get all that user data.
+
+100
+00:05:20,410 --> 00:05:20,680
+OK.
+
+101
+00:05:21,090 --> 00:05:27,430
+In our API, whatever the data is in here, if you go to our API, that means that our API, you can
+
+102
+00:05:27,430 --> 00:05:30,070
+see that is all that our API details data.
+
+103
+00:05:30,550 --> 00:05:33,070
+So now this data is accessible in here.
+
+104
+00:05:33,230 --> 00:05:35,200
+Okay, because everything is in here.
+
+105
+00:05:35,710 --> 00:05:39,910
+I hope print, you get some idea how to work with the fast function.
+
+106
+00:05:39,910 --> 00:05:44,830
+So with this fast function, we are able to get all the data with the JSON method.
+
+107
+00:05:45,130 --> 00:05:46,810
+And then here it's simply loaded.
+
+108
+00:05:47,020 --> 00:05:47,320
+OK?
+
+109
+00:05:47,350 --> 00:05:51,960
+Just simply understand how that functionality work lately will go more deep.
+
+110
+00:05:51,980 --> 00:05:54,060
+Just simply understand that fetch from output.
+
+111
+00:05:54,070 --> 00:05:57,280
+OK, so that is the fundamental series, a fundamental series.
+
+112
+00:05:57,280 --> 00:05:59,560
+You have to just remember what exactly that.
+
+113
+00:05:59,560 --> 00:06:03,700
+Then the fat just simply remember, it literally will build the project.
+
+114
+00:06:03,700 --> 00:06:05,110
+Then everything will be more clear.
+
+115
+00:06:05,170 --> 00:06:07,310
+OK, so how can access that API?
+
+116
+00:06:07,330 --> 00:06:09,040
+I hope it's very much clear to you.
+
