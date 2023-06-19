@@ -18,9 +18,41 @@
 // console.log('After');
 
 //l2
+// fetchUser(1234, function(user){
+//     console.log(user);
+// })
+
+// function fetchUser(userId,callback){
+//     setTimeout(function(){
+//         console.log('Hi my name is aditya');
+//         const fetchedUser ={
+//             id: userId,
+//             name: 'Aditya',
+//             emai: 'aditya@gmail.com'
+//         };
+//         callback(fetchUser);
+//     },2000);
+// }
+
+//l-3 
+// callback Hell
+
 fetchUser(1234, function(user){
     console.log(user);
-})
+    sendMail(user.email,function(response){
+        console.log(response.success);
+    });
+});
+
+function sendMail(userEmail,callback){
+
+    setTimeout(function(){
+        console.log('message send');
+        const response ={success:true};
+        callback(response);
+    },3000);
+}
+
 
 function fetchUser(userId,callback){
     setTimeout(function(){
@@ -33,7 +65,3 @@ function fetchUser(userId,callback){
         callback(fetchUser);
     },2000);
 }
-
-//l-3 
-// callback Hell
-
