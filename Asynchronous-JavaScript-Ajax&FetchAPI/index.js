@@ -84,3 +84,8 @@ promise.then(function(result){
 
 //L-5
 //promices
+const promise= new promise(function(resolve,reject){
+    setTimeout(() =>{
+        reject(new Error('Hi there have some error'));
+    },2000);
+});
