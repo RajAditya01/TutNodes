@@ -83,3 +83,4 @@ promise.then(function(result){
 })
 
 //L-5
+//promices
