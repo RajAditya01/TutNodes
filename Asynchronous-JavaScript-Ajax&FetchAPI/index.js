@@ -89,3 +89,4 @@ const promise= new promise(function(resolve,reject){
         reject(new Error('Hi there have some error'));
     },2000);
 });
+
