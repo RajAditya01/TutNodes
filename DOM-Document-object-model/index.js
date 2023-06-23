@@ -19,4 +19,7 @@ const users=[
 ];
 
 // console.log(JSON.stringify(users));
-localStroage.setItem('us')
+localStroage.setItem('users',JSON.stringify(users));
+const userForm =localStorage.getItem('users');
+
+console.log(userForm);
