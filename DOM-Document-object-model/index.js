@@ -22,4 +22,5 @@ const users=[
 localStroage.setItem('users',JSON.stringify(users));
 const userForm =localStorage.getItem('users');
 
-console.log(userForm);
+//console.log(userForm);
+console.log(JSON.parse(userForm));
