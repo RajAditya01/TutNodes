@@ -27,3 +27,6 @@ console.log(JSON.parse(userForm));
 
 //l-5
 //session stroage
+
+sessionStorage.setItem('name','Aditya');
+localStorage.setItem('name','Aditya');
