@@ -10,4 +10,13 @@
 //l-3
 
 //localStorage.removeItem('name');
-localStorage.clear();
+//localStorage.clear();
+
+//l-4
+const users=[
+    {name:'Aditya' , age:20},
+    {name:'raj' , age:20},
+];
+
+// console.log(JSON.stringify(users));
+localStroage.setItem('us')
