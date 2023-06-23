@@ -1,8 +1,13 @@
-localStorage.setItem('name','Aditya');
-localStorage.setItem('age',20);
+// localStorage.setItem('name','Aditya');
+// localStorage.setItem('age',20);
 
-const age =localStorage.getItem('age');
-console.log(age);
+// const age =localStorage.getItem('age');
+// console.log(age);
 
-localStorage('name','Raj');
-console.log(localStorage.getItem('name')); 
+// localStorage('name','Raj');
+// console.log(localStorage.getItem('name')); 
+
+//l-3
+
+//localStorage.removeItem('name');
+localStorage.clear();
