@@ -8,7 +8,7 @@
 // console.log(localStorage.getItem('name')); 
 
 //l-3
-
+//local stroage
 //localStorage.removeItem('name');
 //localStorage.clear();
 
@@ -24,3 +24,6 @@ const userForm =localStorage.getItem('users');
 
 //console.log(userForm);
 console.log(JSON.parse(userForm));
+
+//l-5
+//session stroage
